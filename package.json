@@ -1,0 +1,28 @@
+{
+  "name": "hapijs_typescript",
+  "version": "1.0.0",
+  "description": "HapiJs - Creating a strongly typed Web API",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "serve": "node server/server.js",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "Samuel Hutama",
+  "keywords": [
+    "hapijs",
+    "typescript"
+  ],
+  "dependencies": {
+    "hapi": "18.0.0",
+    "joi": "^14.3.1",
+    "joi-browser": "^13.4.0"
+  },
+  "devDependencies": {
+    "@types/hapi": "18.0.0",
+    "ts-loader": "5.3.3",
+    "typescript": "3.2.4",
+    "webpack": "4.29.0",
+    "webpack-cli": "3.2.1"
+  }
+}
